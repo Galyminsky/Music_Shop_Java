@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Music Shop</string>
     <string name="selected_item">Selected Item</string>
     <string name="order_price">Order Price</string>
     <string name="_0">0$</string>
