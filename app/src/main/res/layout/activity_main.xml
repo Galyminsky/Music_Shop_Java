@@ -110,6 +110,7 @@
             android:layout_below="@id/txtQuantity"
             android:layout_marginTop="10dp"
             android:layout_toStartOf="@id/count_quantity"
+            android:onClick="decraseQuantity"
             android:text="@string/btn_minus" />
 
         <Button
