@@ -41,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp" />
+        android:layout_marginEnd="20dp"
+        android:minHeight="48dp" />
 
     <ImageView
         android:id="@+id/barabanres"
@@ -104,8 +105,8 @@
 
         <Button
             android:id="@+id/btn_minus"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_below="@id/txtQuantity"
             android:layout_marginTop="10dp"
             android:layout_toStartOf="@id/count_quantity"
@@ -113,14 +114,15 @@
 
         <Button
             android:id="@+id/btn_plus"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_below="@id/txtQuantity"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="10dp"
             android:foregroundGravity="center"
+            android:onClick="increaseQuantity"
             android:text="@string/btn_plus" />
 
 
